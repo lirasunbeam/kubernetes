@@ -28,7 +28,7 @@ import (
 
 var (
 	validSelector = &metav1.LabelSelector{
-		MatchLabels: map[string]string{"a": "b"},
+		MatchLabels: map[string]string{"a": "bc"},
 	}
 
 	validPodTemplate = core.PodTemplateSpec{
