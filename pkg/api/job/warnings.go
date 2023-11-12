@@ -28,7 +28,7 @@ import (
 )
 
 const (
-	completionsSoftLimit                        = 100_000
+	completionsSoftLimit                        = 100
 	parallelismSoftLimitForUnlimitedCompletions = 10_000
 )
 
